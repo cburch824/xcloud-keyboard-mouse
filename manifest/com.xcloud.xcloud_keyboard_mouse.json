@@ -1,0 +1,9 @@
+{
+    "name": "com.xcloud.xcloud_keyboard_mouse",
+    "description": "My Application",
+    "path": "/home/chris/github.com/cburch824/xcloud-keyboard-mouse/native-host/src/nativeHost",
+    "type": "stdio",
+    "allowed_origins": [
+      "chrome-extension://dmkcocbcbflecomebcbnblbbngdfdikl/"
+    ]
+  }

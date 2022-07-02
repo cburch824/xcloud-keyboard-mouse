@@ -1,0 +1,9 @@
+{
+    "name": "com.sample.native_msg_golang",
+    "description": "Chrome Native Messaging Host Go Example",
+    "path": "/home/chris/github.com/jfarleyx/chrome-native-messaging-golang/native-host/src/bin/nativeMsgSample",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://ghbmnnjooekpmoecnnnilnnbdlolhkhi/"
+    ]
+}

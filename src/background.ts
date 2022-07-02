@@ -9,6 +9,9 @@ import { MessageTypes, activateGamepadConfigMsg, Message } from './shared/messag
  * https://developer.chrome.com/docs/extensions/mv3/migrating_to_service_workers/
  */
 
+console.log('Connecting to native messaging host');
+chrome.runtime.connectNative('com.xcloud.xcloud_keyboard_mouse');
+
 chrome.runtime.onInstalled.addListener(({ reason }) => {
   // Page actions are disabled by default and enabled on select tabs
   disableActionButton();
