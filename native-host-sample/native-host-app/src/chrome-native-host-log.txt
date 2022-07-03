@@ -40,3 +40,4 @@ TRACE: 2022/06/06 14:55:44 main.go:72: Chrome native messaging host started. Nat
 TRACE: 2022/06/14 08:56:54 main.go:72: Chrome native messaging host started. Native byte order: LittleEndian.
 TRACE: 2022/07/01 08:53:38 main.go:72: Chrome native messaging host started. Native byte order: LittleEndian.
 ERROR: 2022/07/01 08:55:10 main.go:80: Endpoint hit: homeEndpoint
+TRACE: 2022/07/03 12:41:18 main.go:72: Chrome native messaging host started. Native byte order: LittleEndian.
