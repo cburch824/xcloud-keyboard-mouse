@@ -6,3 +6,4 @@ dist/
 tmp/
 .eslintcache
 native-host/src/nativeHost
+native-host/src/nativeHost-log

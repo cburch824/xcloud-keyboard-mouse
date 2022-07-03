@@ -1,0 +1,7 @@
+TRACE: 2022/07/03 14:30:20 main.go:85: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/03 14:32:18 main.go:94: Endpoint hit: homeEndpoint
+TRACE: 2022/07/03 14:43:35 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/03 14:44:22 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/03 14:44:33 main.go:85: Endpoint hit: homeEndpoint
+TRACE: 2022/07/03 14:45:15 main.go:104: Performing action: ping
+TRACE: 2022/07/03 14:45:27 main.go:104: Performing action: something

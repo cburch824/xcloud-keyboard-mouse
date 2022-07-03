@@ -1,0 +1,16 @@
+TRACE: 2022/04/25 17:19:37 main.go:70: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/04/25 17:19:37 main.go:80: IO buffer reader created with buffer size of 8192.
+TRACE: 2022/04/25 17:19:44 main.go:109: Stdin closed.
+TRACE: 2022/04/25 17:19:44 main.go:72: Chrome native messaging host exited.
+TRACE: 2022/04/25 17:19:45 main.go:70: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/04/25 17:19:45 main.go:80: IO buffer reader created with buffer size of 8192.
+TRACE: 2022/04/25 17:20:18 main.go:90: Message size in bytes: 18
+TRACE: 2022/04/25 17:20:18 main.go:126: Message received: {"query":"*ping*"}
+TRACE: 2022/04/25 17:20:31 main.go:90: Message size in bytes: 16
+TRACE: 2022/04/25 17:20:31 main.go:126: Message received: {"query":"ping"}
+TRACE: 2022/04/25 17:20:39 main.go:90: Message size in bytes: 20
+TRACE: 2022/04/25 17:20:39 main.go:126: Message received: {"query":"whatever"}
+TRACE: 2022/04/25 17:21:02 main.go:109: Stdin closed.
+TRACE: 2022/04/25 17:21:02 main.go:72: Chrome native messaging host exited.
+TRACE: 2022/04/27 18:53:15 main.go:70: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/04/27 18:53:15 main.go:80: IO buffer reader created with buffer size of 8192.
