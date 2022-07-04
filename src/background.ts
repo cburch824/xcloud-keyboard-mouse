@@ -9,9 +9,6 @@ import { MessageTypes, activateGamepadConfigMsg, Message } from './shared/messag
  * https://developer.chrome.com/docs/extensions/mv3/migrating_to_service_workers/
  */
 
-console.log('Connecting to native messaging host');
-chrome.runtime.connectNative('com.xcloud.xcloud_keyboard_mouse');
-
 chrome.runtime.onInstalled.addListener(({ reason }) => {
   // Page actions are disabled by default and enabled on select tabs
   disableActionButton();
@@ -28,9 +25,9 @@ chrome.runtime.onMessage.addListener((msg: Message, sender, sendResponse) => {
   // Receives messages from the content_script
   if (!sender.tab) return false;
 
-  console.log('Connected');
+  console.log('xcloud-keyboard-mouse extension Connected');
   if (msg.type === MessageTypes.INJECTED) {
-    console.log('Injected');
+    console.log('xcloud-keyboard-mouse extension Injected');
     enableActionButton(sender.tab.id);
     return false;
   }
@@ -51,4 +48,15 @@ chrome.runtime.onMessage.addListener((msg: Message, sender, sendResponse) => {
     return false;
   }
   return false;
+});
+
+console.log('xcloud-keyboard-mouse extension connecting to native messaging host');
+const xcloudListenerPort = chrome.runtime.connectNative('com.cburch.xcloud_listener');
+
+xcloudListenerPort.onMessage.addListener(function (msg) {
+  console.log('xcloud-keyboard-mouse extension recieved message ' + msg + ' from xcloud_listener');
+});
+
+xcloudListenerPort.onDisconnect.addListener(function () {
+  console.log('xcloud-keyboard-mouse disconnected from xcloud_listener');
 });
