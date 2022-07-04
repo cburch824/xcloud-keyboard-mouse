@@ -1,0 +1,9 @@
+{
+    "name": "com.cburch.xcloud_listener",
+    "description": "xcloud-keyboard-mouse extension listener",
+    "path": "/home/chris/github.com/cburch824/xcloud-keyboard-mouse/xcloud-listener/src/xcloudListener",
+    "type": "stdio",
+    "allowed_origins": [
+      "chrome-extension://dmkcocbcbflecomebcbnblbbngdfdikl/"
+    ]
+  }
