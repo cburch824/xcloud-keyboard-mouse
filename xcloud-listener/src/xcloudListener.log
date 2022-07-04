@@ -1,0 +1,39 @@
+TRACE: 2022/07/04 11:13:08 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 11:13:47 main.go:104: Performing action: something
+TRACE: 2022/07/04 11:30:54 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 11:31:05 main.go:104: Performing action: something
+TRACE: 2022/07/04 11:32:52 main.go:104: Performing action: btn-a
+TRACE: 2022/07/04 11:42:03 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 11:43:06 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 11:43:28 main.go:104: Performing action: btn-a
+TRACE: 2022/07/04 11:43:54 main.go:104: Performing action: btn-a
+TRACE: 2022/07/04 11:46:09 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 11:47:12 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 11:47:22 main.go:104: Performing action: btn-a
+TRACE: 2022/07/04 11:50:58 main.go:104: Performing action: btn-a
+TRACE: 2022/07/04 11:53:39 main.go:85: Endpoint hit: homeEndpoint
+TRACE: 2022/07/04 12:04:11 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 12:04:36 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 12:04:54 main.go:85: Endpoint hit: homeEndpoint
+TRACE: 2022/07/04 12:05:01 main.go:104: Performing action: btn-a
+TRACE: 2022/07/04 12:05:01 main.go:107: Message query: %s
+TRACE: 2022/07/04 12:05:01 main.go:108: Message response: 
+TRACE: 2022/07/04 12:05:39 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 12:06:11 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 12:06:22 main.go:85: Endpoint hit: homeEndpoint
+TRACE: 2022/07/04 12:06:26 main.go:104: Performing action: btn-a
+TRACE: 2022/07/04 12:06:26 main.go:107: Message query: btn-a
+TRACE: 2022/07/04 12:06:26 main.go:108: Message response: 
+TRACE: 2022/07/04 12:10:55 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 12:10:58 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 12:11:04 main.go:85: Endpoint hit: homeEndpoint
+TRACE: 2022/07/04 12:11:07 main.go:104: Performing action: btn-a
+TRACE: 2022/07/04 12:11:07 main.go:107: Message query: btn-a
+TRACE: 2022/07/04 12:11:07 main.go:108: Message response: btn-a
+TRACE: 2022/07/04 12:13:17 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 12:13:18 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 12:13:28 main.go:77: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2022/07/04 12:13:31 main.go:85: Endpoint hit: homeEndpoint
+TRACE: 2022/07/04 12:13:34 main.go:104: Performing action: btn-a
+TRACE: 2022/07/04 12:13:34 main.go:107: Message query: btn-a
+TRACE: 2022/07/04 12:13:34 main.go:108: Message response: btn-a
